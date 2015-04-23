@@ -17,6 +17,7 @@ class storm(
   $environment_ini_template     = $storm::params::environment_ini_template,
   $drpc_childopts          = $storm::params::drpc_childopts,
   $drpc_servers            = $storm::params::drpc_servers,
+  $environment_variables   = $storm::params::environment_variables,
   $gid                     = $storm::params::gid,
   $group                   = $storm::params::group,
   $group_ensure            = $storm::params::group_ensure,

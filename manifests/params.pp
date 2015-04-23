@@ -9,6 +9,7 @@ class storm::params {
   $environment_ini_template     = 'storm/storm_env.ini.erb'
   $drpc_childopts          = '-Xmx256m -Djava.net.preferIPv4Stack=true'
   $drpc_servers            = []
+  $environment_variables   = []
   $gid                     = 53001
   $group                   = 'storm'
   $group_ensure            = 'present'
