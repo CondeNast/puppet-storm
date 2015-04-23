@@ -13,6 +13,8 @@ class storm(
   $config                  = $storm::params::config,
   $config_map              = $storm::params::config_map,
   $config_template         = $storm::params::config_template,
+  $environment_ini         = $storm::params::environment_ini,
+  $environment_ini_template     = $storm::params::environment_ini_template,
   $drpc_childopts          = $storm::params::drpc_childopts,
   $drpc_servers            = $storm::params::drpc_servers,
   $gid                     = $storm::params::gid,

@@ -5,6 +5,8 @@ class storm::params {
   $config                  = '/opt/storm/conf/storm.yaml'
   $config_map              = {}
   $config_template         = 'storm/storm.yaml.erb'
+  $environment_ini         = '/opt/storm/conf/storm_env.ini'
+  $environment_ini_template     = 'storm/storm_env.ini.erb'
   $drpc_childopts          = '-Xmx256m -Djava.net.preferIPv4Stack=true'
   $drpc_servers            = []
   $gid                     = 53001
