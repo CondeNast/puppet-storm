@@ -67,6 +67,8 @@ class storm(
   validate_absolute_path($config)
   validate_hash($config_map)
   validate_string($config_template)
+  validate_absolute_path($environment_ini)
+  validate_string($environment_ini_template)
   validate_string($drpc_childopts)
   validate_array($drpc_servers)
   if !is_integer($gid) { fail('The $gid parameter must be an integer number') }

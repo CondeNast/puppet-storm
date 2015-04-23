@@ -33,3 +33,6 @@
 # JVM options to be used in "storm jar" commad
 #STORM_JAR_JVM_OPTS:
 
+<% @environment_variables.each do |variable| -%>
+<%= variable  %>
+<% end -%>
